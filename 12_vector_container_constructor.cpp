@@ -3,7 +3,6 @@
 //
 #include "iostream"
 #include "vector"
-
 using namespace std;
 
 void cout_vector(vector<int> &temp_vector) {
