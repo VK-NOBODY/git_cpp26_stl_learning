@@ -27,8 +27,22 @@ void test_01() {
     map_01[4] = 40;
     cout_map(map_01);
     //[]不建議插入,用途,可以利用key訪問value
-    cout << map_01[5] << endl;
+//    cout << map_01[5] << endl;
+//    cout_map(map_01);
+
+    //刪除
+    map_01.erase(map_01.begin());
     cout_map(map_01);
+
+    map_01.erase(3);//按照key值刪除
+    cout_map(map_01);
+
+    //清空
+//    map_01.erase(map_01.begin(), map_01.end());//按照區間刪除
+    map_01.clear();
+    cout_map(map_01);
+
+
 }
 
 int main() {
