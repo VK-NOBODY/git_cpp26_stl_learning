@@ -17,8 +17,8 @@ void test_01() {
     map<int, int> map_01;
     //插入元素
     map_01.insert(make_pair(1, 10));
-    map_01.insert(make_pair(2, 20));
-    map_01.insert(make_pair(3, 30));
+    map_01.insert(make_pair(3, 20));
+    map_01.insert(make_pair(2, 30));
     map_01.insert(make_pair(4, 40));
     map_01.insert(make_pair(5, 50));
     //輸出map
